@@ -1,10 +1,5 @@
-# Printing
-# Hot tip: Use two "#" symbols followed immediately by text (no blank space) to write a comment block
-# For example:
 
-##
-# This was generated using the double hashtag followed immediately by text method
- 
+
 print("Hello World")
 print("Hello again")
 print("I like typing this")
@@ -29,3 +24,21 @@ print("There are", cars, "available cars")
 print("There are only", drivers, "drivers available")
 print("We can transport", carpool_capacity, "people today")
 print("We need to put about", average_passenger_per_car, "in each car")
+
+
+# More variables and printing
+my_name     = "Achyut Ray"
+my_age      = "22"
+my_height   = "6'0"
+my_weight   = "180"
+my_eyes     = "Brown"
+my_teeth    = "White"
+my_hair     = "Black"
+total       = my_age + my_height + my_weight
+print(f"Let's talk about {my_name}")
+print(f"He's {my_height} feet tall")
+print(f"He weighs {my_weight}")
+print(f"Adding strings looks like this: {total}")
+
+
+##note that
